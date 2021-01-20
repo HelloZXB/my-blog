@@ -1,0 +1,60 @@
+.center-content .article {
+  width: 890px;
+  margin-top: 30px;
+  border-radius: 6px;
+  box-shadow: 1px 1px 5px 5px rgb(169 169 4.82857143%);
+  overflow: hidden;
+}
+.center-content .article .article-pa {
+  padding: 0 10px;
+}
+.center-content .article .article-img img {
+  width: 100%;
+  height: 100%;
+}
+.center-content .article .article-img3 img {
+  width: 32.333%;
+  height: 33.333%;
+  margin-left: 13px;
+}
+.center-content .article .article-img3 img:first-child {
+  margin-left: 0;
+}
+.center-content .article .article-imgD {
+  float: left;
+  width: 335px;
+  height: 190px;
+  overflow: hidden;
+}
+.center-content .article .article-imgD img {
+  width: 100%;
+  height: 100%;
+}
+.center-content .article .article-paD {
+  width: 550px;
+  float: right;
+}
+.center-content .article .article-paD p {
+  display: block;
+  height: 87px;
+}
+.center-content .article h2 {
+  font-weight: 600;
+  color: #777;
+  padding: 10px 0;
+}
+.center-content .article p {
+  width: 100%;
+  height: 50px;
+  display: block;
+  line-height: 25px;
+}
+.center-content .article .features {
+  border-top: 1px solid #ccc;
+  margin-top: 10px;
+  padding: 10px 0;
+}
+.center-content .article .features span {
+  padding: 0 10px;
+}
+/*# sourceMappingURL=ConterContent.css.map */
