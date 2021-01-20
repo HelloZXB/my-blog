@@ -43,6 +43,9 @@
 
 <style scoped lang="less">
 .menu-tabs{
+  .ivu-avatar {
+    margin-top: 32px;
+  }
   .navigation {
     padding: 10px;
     font-size: 16px;
