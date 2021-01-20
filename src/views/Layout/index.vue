@@ -2,6 +2,7 @@
   <div class="layout">
     <home-header/>
     <home-center/>
+    <Footer class="layout-footer-center">2021.1-19-2021 &copy; HELLOZXB</Footer>
   </div>
 </template>
 
@@ -32,5 +33,7 @@
     overflow: hidden;
   }
 
-
+  .layout-footer-center{
+    text-align: center;
+  }
 </style>

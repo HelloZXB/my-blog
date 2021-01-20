@@ -5,25 +5,19 @@
         <div class="layout-logo">B & P</div>
         <div class="layout-nav">
           <MenuItem name="1">
-            <Icon type="ios-navigate"></Icon>
+            <Input v-model="value" placeholder="Enter something..." style="width: 200px"/>
           </MenuItem>
           <MenuItem name="2">
-            <Icon type="ios-keypad"></Icon>
+            登录
           </MenuItem>
           <MenuItem name="3">
-            <Icon type="ios-analytics"></Icon>
+            注册
           </MenuItem>
-          <MenuItem name="3">
-            <Icon type="ios-analytics"></Icon>
+          <MenuItem name="4">
+            管理
           </MenuItem>
-          <MenuItem name="3">
-            <Icon type="ios-analytics"></Icon>
-          </MenuItem>
-          <MenuItem name="3">
-            <Icon type="ios-analytics"></Icon>
-          </MenuItem>
-          <MenuItem name="3">
-            <Icon type="ios-analytics"></Icon>
+          <MenuItem name="5">
+            GITHUB
           </MenuItem>
         </div>
       </Menu>
@@ -33,7 +27,12 @@
 
 <script>
   export default {
-    name: 'HomeHeader'
+    name: 'HomeHeader',
+    data () {
+      return {
+        value: ''
+      }
+    }
   }
 </script>
 
@@ -55,9 +54,10 @@
     }
 
     .layout-nav {
-      width: 420px;
+      width: 540px;
       margin: 0 auto;
       margin-right: 20px;
+      height: 60px;
     }
   }
 </style>
