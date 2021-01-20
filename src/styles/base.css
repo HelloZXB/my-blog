@@ -3,5 +3,16 @@
   padding: 0;
   list-style: none;
   box-sizing: border-box;
+  font-weight: 100;
+}
+::-webkit-scrollbar {
+  width: 0;
+  background-color: #919191;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #222;
+}
+::selection {
+  background: #ffffff;
 }
 /*# sourceMappingURL=base.css.map */
