@@ -35,6 +35,36 @@
           </div>
         </div>
       </div>
+
+      <!-- 无图 -->
+      <div class="article">
+        <div class="article-pa">
+          <h2>吉他拨弦方法</h2>
+          <p>持琴方式翘腿式两腿分开式两个接触点：右腿部右手拨弦方法右手拨弦，左手按弦最粗是6弦，最细是1弦右手小指一般用不到，4根手指需要弹6弦6 5 4弦 用大拇指...</p>
+          <div class="features">
+          <span>
+            <Icon type="ios-person"/>
+            HELLOZXB
+          </span>
+            <span>
+            <Icon type="ios-time-outline"/>
+            2021.01.20
+          </span>
+            <span>
+            <Icon type="md-eye"/>
+            3234 浏览
+          </span>
+            <span>
+            <Icon type="ios-thumbs-up-outline"/>
+            1285 点赞
+          </span>
+            <span>
+            <Icon type="ios-chatbubbles-outline"/>
+            918 评论
+          </span>
+          </div>
+        </div>
+      </div>
     </Content>
   </div>
 </template>
