@@ -3,10 +3,13 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import './styles/base.less'
-import './utils/iView'
+import ViewUI from 'view-design'
+import 'view-design/dist/styles/iview.css'
 import './utils/muse'
 
 Vue.config.productionTip = false
+
+Vue.use(ViewUI)
 
 new Vue({
   router,
