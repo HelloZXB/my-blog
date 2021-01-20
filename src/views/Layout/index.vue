@@ -7,8 +7,8 @@
 </template>
 
 <script>
-  import HomeHeader from '@/components/Layout/HomeHeader'
-  import HomeCenter from '@/components/Layout/HomeCenter'
+  import HomeHeader from '@/components/Layout/HomeComponent/HomeHeader'
+  import HomeCenter from '@/components/Layout/HomeComponent/HomeCenter'
 
   export default {
     name: 'index',
@@ -26,14 +26,13 @@
 
 <style scoped lang="less">
   .layout {
-    border: 1px solid #d7dde4;
     background: #f5f7f9;
     position: relative;
     border-radius: 4px;
     overflow: hidden;
   }
 
-  .layout-footer-center{
+  .layout-footer-center {
     text-align: center;
   }
 </style>

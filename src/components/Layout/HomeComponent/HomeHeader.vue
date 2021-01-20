@@ -1,8 +1,8 @@
 <template>
   <div class="home-header">
-    <Header>
+    <Header :style="{position: 'fixed', width: '100%'}">
       <Menu mode="horizontal" theme="dark" active-name="1">
-        <div class="layout-logo">B & P</div>
+        <div class="layout-logo">Z & P</div>
         <div class="layout-nav">
           <MenuItem name="1">
             <Input v-model="value" placeholder="Enter something..." style="width: 200px"/>
@@ -38,6 +38,10 @@
 
 <style scoped lang="less">
   .home-header {
+    .ivu-layout-header {
+      z-index: 99;
+    }
+
     .layout-logo {
       width: 100px;
       height: 30px;
@@ -47,17 +51,21 @@
       position: relative;
       top: 15px;
       left: 20px;
-      text-align: center;
+      color: rgba(255,255,255,.7);
       line-height: 30px;
-      font-size: 30px;
-      color: rgba(255, 255, 255, .7);
+      text-align: center;
+      font-size: 35px;
+      font-weight: 700;
     }
 
     .layout-nav {
-      width: 540px;
+      width: 550px;
       margin: 0 auto;
       margin-right: 20px;
-      height: 60px;
+    }
+
+    .layout-footer-center {
+      text-align: center;
     }
   }
 </style>

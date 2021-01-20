@@ -1,6 +1,6 @@
 <template>
   <div class="center-content">
-    <Content :style="{padding: '24px', minHeight: '280px', background: '#fff'}">
+    <Content :style="{padding: '24px', minHeight: '280px', background: '#fff', marginTop: '70px'}">
       <div>Content</div>
       <div>Content</div>
       <div>Content</div>
@@ -41,6 +41,8 @@
   }
 </script>
 
-<style scoped>
-
+<style scoped lang="less">
+  .ivu-layout{
+    margin-top: 64px;
+  }
 </style>

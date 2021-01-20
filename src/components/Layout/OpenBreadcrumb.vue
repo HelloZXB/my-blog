@@ -14,6 +14,11 @@
   }
 </script>
 
-<style scoped>
-
+<style scoped lang="less">
+  .open-breadcrumb{
+    position: fixed;
+    width: 939px;
+    overflow: hidden;
+    background-color: #f5f7f9;
+  }
 </style>
