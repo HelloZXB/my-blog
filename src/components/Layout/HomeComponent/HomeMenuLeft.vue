@@ -4,6 +4,15 @@
       <Menu active-name="1-1" theme="light" width="auto" :open-names="['1']">
         <div class="demo-avatar">
           <Avatar icon="ios-person" size="100" src="https://i.loli.net/2017/08/21/599a521472424.jpg"/>
+          <Dropdown>
+            <a href="javascript:void(0)">
+              HELLOZXB
+              <Icon type="ios-arrow-down"></Icon>
+            </a>
+            <DropdownMenu slot="list" :style="{padding: '10px'}">
+              People can skip meals for twelve days. But programming can’t stop writing for a day
+            </DropdownMenu>
+          </Dropdown>
         </div>
         <div class="navigation">
           <span>导航</span>
@@ -72,6 +81,15 @@
     .navigation {
       padding: 10px;
       font-size: 16px;
+    }
+
+    .ivu-dropdown {
+      margin-top: 10px;
+      margin-left: 10px;
+
+      a {
+        color: #777;
+      }
     }
 
     .demo-avatar {

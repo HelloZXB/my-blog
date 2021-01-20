@@ -6,7 +6,6 @@
           <home-menu-left/>
         </Sider>
         <Layout :style="{padding: '0 24px 0', marginTop: '64px'}">
-          <open-breadcrumb/>
           <center-content/>
         </Layout>
         <Sider hide-trigger :style="{background: '#fff', minWidth: '350px'}">
@@ -18,7 +17,6 @@
 </template>
 
 <script>
-  import OpenBreadcrumb from '../OpenBreadcrumb'
   import CenterContent from '../CenterComponent/CenterContent'
   import HomeMenuRight from './HomeMenuRight'
   import HomeMenuLeft from './HomeMenuLeft'
@@ -28,7 +26,6 @@
     components: {
       HomeMenuRight,
       CenterContent,
-      OpenBreadcrumb,
       HomeMenuLeft
     }
   }
