@@ -17,7 +17,8 @@
   color: #fff;
 }
 body {
-  background: url("../assets/background1.jpg");
+  background: url("../assets/background1.jpg") center center;
   background-size: cover;
+  background-attachment: fixed;
 }
 /*# sourceMappingURL=base.css.map */
