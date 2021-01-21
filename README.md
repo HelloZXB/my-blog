@@ -1,4 +1,4 @@
-# my-life-fornt-desk
+# my-blog
 
 ## Project setup
 ```
