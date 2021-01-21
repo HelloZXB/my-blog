@@ -16,4 +16,8 @@
   background: #1edbb4;
   color: #fff;
 }
+body {
+  background: url("../assets/background1.jpg");
+  background-size: cover;
+}
 /*# sourceMappingURL=base.css.map */
