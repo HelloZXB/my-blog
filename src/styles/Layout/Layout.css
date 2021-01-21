@@ -98,16 +98,21 @@
 .layout .el-container .el-main {
   background-color: #E9EEF3;
   color: #333;
-  text-align: center;
-  line-height: 160px;
   margin-top: 60px;
-  width: 1035px;
+  width: 780px;
   margin-left: 315px;
 }
 .layout .el-container .el-footer {
   background-color: #def1f2;
-  width: 1035px;
+  width: 780px;
   margin-left: 315px;
+  overflow: hidden;
+}
+.layout .el-container .right-aside {
+  width: 300px;
+  background-color: #E9EEF3;
+  margin-top: 60px;
+  opacity: 0.92;
 }
 .layout .el-container body > .el-container {
   margin-bottom: 40px;
