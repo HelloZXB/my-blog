@@ -26,6 +26,20 @@
       z-index: 9;
       position: fixed;
 
+      .grid-content {
+        max-height: 36px;
+        line-height: 36px;
+
+        span {
+          font-weight: 700;
+          font-size: 20px;
+        }
+      }
+
+      .bg-purple {
+        background-color: #fcfcfc !important;
+      }
+
       .el-row {
         margin-bottom: 20px;
 
@@ -36,7 +50,7 @@
 
       .el-col {
         border-radius: 4px;
-        margin-top: 11px
+        //margin-top: 11px
       }
 
       .bg-purple-dark {
@@ -72,7 +86,7 @@
       position: fixed;
       margin-top: 60px;
 
-      .bubble{
+      .bubble {
         display: inline-block;
         background-color: #cfdadd;
         padding: 2px 5px;
@@ -87,7 +101,7 @@
         box-shadow: 0 1px 0 rgb(0 0 0 / 20%);
       }
 
-      .el-menu-item{
+      .el-menu-item {
         height: 45px;
         line-height: 45px;
       }
@@ -132,4 +146,7 @@
     }
   }
 
+  .el-menu {
+    background-color: #fcfcfc !important;
+  }
 }

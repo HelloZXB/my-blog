@@ -24,6 +24,17 @@
   z-index: 9;
   position: fixed;
 }
+.layout .el-container .el-header .grid-content {
+  max-height: 36px;
+  line-height: 36px;
+}
+.layout .el-container .el-header .grid-content span {
+  font-weight: 700;
+  font-size: 20px;
+}
+.layout .el-container .el-header .bg-purple {
+  background-color: #fcfcfc !important;
+}
 .layout .el-container .el-header .el-row {
   margin-bottom: 20px;
 }
@@ -32,7 +43,6 @@
 }
 .layout .el-container .el-header .el-col {
   border-radius: 4px;
-  margin-top: 11px;
 }
 .layout .el-container .el-header .bg-purple-dark {
   background: #99a9bf;
@@ -108,5 +118,8 @@
 }
 .layout .el-container .el-container:nth-child(7) .el-aside {
   line-height: 320px;
+}
+.layout .el-menu {
+  background-color: #fcfcfc !important;
 }
 /*# sourceMappingURL=Layout.css.map */
