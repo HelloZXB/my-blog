@@ -109,10 +109,11 @@
   overflow: hidden;
 }
 .layout .el-container .right-aside {
-  width: 300px;
+  width: 314px;
   background-color: #E9EEF3;
   margin-top: 60px;
   opacity: 0.92;
+  border-left: 1px solid #ccc;
 }
 .layout .el-container body > .el-container {
   margin-bottom: 40px;
