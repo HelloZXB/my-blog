@@ -31,7 +31,7 @@
                   <el-menu-item index="5-4-3">选项3</el-menu-item>
                 </el-submenu>
               </el-submenu>
-              <el-menu-item index="6">
+              <el-menu-item>
                 <el-switch v-model="value" active-color="#13ce66" inactive-color="#ff4949"></el-switch>
                 主题切换
               </el-menu-item>
