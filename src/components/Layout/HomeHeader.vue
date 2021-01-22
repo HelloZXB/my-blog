@@ -32,7 +32,7 @@
                 </el-submenu>
               </el-submenu>
               <el-menu-item>
-                <el-switch v-model="value" active-color="#13ce66" inactive-color="#ff4949"></el-switch>
+                <el-switch v-model="value" active-color="#13ce66" inactive-color="#ccc"></el-switch>
                 主题切换
               </el-menu-item>
             </el-menu>
@@ -50,7 +50,7 @@
       return {
         input: '',
         activeIndex: '1',
-        value: true
+        value: false
       }
     },
     methods: {
