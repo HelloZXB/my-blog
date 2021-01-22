@@ -4,7 +4,7 @@
     <el-row :gutter="20">
       <el-col :span="6">
         <div class="grid-content bg-purple" style="margin-top: 11px;">
-          <span>HELLOZXB</span>
+          <span>dawnIceZhu's Blog</span>
         </div>
       </el-col>
       <el-col :span="18">

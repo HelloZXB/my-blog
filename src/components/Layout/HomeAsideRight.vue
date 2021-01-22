@@ -6,7 +6,7 @@
       </div>
       <el-dropdown trigger="click">
         <span class="el-dropdown-link" style="font-weight: 700; font-size: 18px;">
-          HELLOZXB
+          dawnIceZhu
           <i class="el-icon-arrow-down el-icon--right"></i>
         </span>
         <el-dropdown-menu slot="dropdown" placement="top-end" style="width: 250px; padding: 10px">
