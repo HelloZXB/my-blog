@@ -62,6 +62,19 @@
           console.log('打开控制台成功, 采用本站CSS和JS请注明来源, 禁止商业使用')
         }
         // console.log('e.keyCode' + e.keyCode)
+
+        let keyCode = e.keyCode || e.which || e.charCode
+        let ctrlKey = e.ctrlKey || e.metaKey
+        console.log(e.ctrlKey)
+        if (ctrlKey && keyCode == 67) {
+          this.$message({
+            message: '复制成功, 若要转载请务必保留原文链接',
+            type: 'success'
+          })
+          console.log('复制成功, 若要转载请务必保留原文链接')
+        }
+        e.preventDefault()
+        return false
       }
     }
   }
