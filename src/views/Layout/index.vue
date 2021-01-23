@@ -1,7 +1,11 @@
 <template>
   <!-- 主页 -->
   <div class="layout">
+    <a href="https://github.com/HelloZXB" class="github" target="_blank">
+      <img src="../../assets/02.png" alt="">
+    </a>
     <el-container class="el-shadow">
+
       <!-- 头部 -->
       <home-header/>
       <el-container>

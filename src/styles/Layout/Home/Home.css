@@ -11,13 +11,43 @@
 .home .el-carousel__item:nth-child(2n+1) {
   background-color: #d3dce6;
 }
-.home .small {
+.home .small,
+.home .body-art {
   width: 740px;
   height: 300px;
   overflow: hidden;
 }
-.home .small img {
+.home .small img,
+.home .body-art img {
   width: 100%;
   height: 100%;
+}
+.home .body-art {
+  margin-top: 10px;
+  height: 250px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 5px 5px rgb(169 169 4.82857143%);
+}
+.home .body-art .art-img {
+  width: 35%;
+  height: 250px;
+  float: left;
+}
+.home .body-art .art-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.home .body-art .art-txt {
+  width: 65%;
+  height: 250px;
+  float: left;
+  padding: 0 10px;
+}
+.home .body-art:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 10px rgb(102 204 7.28571429%);
+  transition: all 0.3s;
 }
 /*# sourceMappingURL=Home.css.map */

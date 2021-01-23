@@ -8,36 +8,14 @@
         </h3>
       </el-carousel-item>
     </el-carousel>
-    <div>1111</div>
-    <div>1111</div>
-    <div>1111</div>
-    <div>1111</div>
-    <div>1111</div>
-    <div>1111</div>
-    <div>1111</div>
-    <div>1111</div>
-    <div>1111</div>
-    <div>1111</div>
-    <div>1111</div>
-    <div>1111</div>
-    <div>1111</div>
-    <div>1111</div>
-    <div>1111</div>
-    <div>1111</div>
-    <div>1111</div>
-    <div>1111</div>
-    <div>1111</div>
-    <div>1111</div>
-    <div>1111</div>
-    <div>1111</div>
-    <div>1111</div>
-    <div>1111</div>
-    <div>1111</div>
-    <div>1111</div>
-    <div>1111</div>
-    <div>1111</div>
-    <div>1111</div>
-    <div>1111</div>
+    <div class="body-art">
+      <div class="art-img">
+        <img src="https://jerrita.cn/usr/themes/handsome/assets/img/sj/2.jpg" alt="">
+      </div>
+      <div class="art-txt">
+        <div class="txt">狮吼功</div>
+      </div>
+    </div>
   </div>
 </template>
 
