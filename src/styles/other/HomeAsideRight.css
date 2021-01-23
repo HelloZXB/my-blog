@@ -21,4 +21,55 @@
   width: 100%;
   height: 100%;
 }
+.right-aside .el-tabs .el-tab-pane {
+  padding: 0 10px;
+}
+.right-aside .el-tabs .el-tab-pane .img-pic {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 20px;
+}
+.right-aside .el-tabs .el-tab-pane .img-pic .el-avatar {
+  box-shadow: 2px 2px 3px #e1e1e1;
+  opacity: 1;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+}
+.right-aside .el-tabs .el-tab-pane .img-content {
+  width: 81%;
+  height: 85px;
+  padding: 2px 5px;
+  font-size: 14px;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  border: 1px dashed #ccc;
+  border-radius: 15px;
+  margin-left: 5px;
+}
+.right-aside .el-tabs .el-tab-pane .img-content .min-bd {
+  width: 100%;
+  height: 55px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.right-aside .el-tabs .el-tab-pane .img-content .features {
+  width: 100%;
+  height: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid #ccc;
+  overflow: hidden;
+  padding: 0 5px;
+  font-size: 15px;
+  color: #888;
+}
+.right-aside .el-tabs .el-tab-pane .img-content .features i {
+  padding: 0 10px;
+}
 /*# sourceMappingURL=HomeAsideRight.css.map */

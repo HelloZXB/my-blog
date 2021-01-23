@@ -19,8 +19,36 @@
       </span>
     </div>
     <el-tabs v-model="activeName" @tab-click="handleClick">
-      <el-tab-pane label="热门文章" name="first">用户管理</el-tab-pane>
-      <el-tab-pane label="热门评论" name="second">热门评论</el-tab-pane>
+      <el-tab-pane label="热门文章" name="first">
+        <div v-for="(item, index) in HomeAsideRight" :key="index">
+          <div class="img-pic">
+            <el-avatar :src="item.avatar"></el-avatar>
+          </div>
+          <div class="img-content">
+            <div class="min-bd">
+              {{ item.content }}
+            </div>
+            <div class="features">
+              <i class="el-icon-goblet-square-full" style="padding-left: 0;">{{ item.link }}</i>
+              <i class="el-icon-chat-round">{{ item.comment }}</i>
+            </div>
+          </div>
+        </div>
+      </el-tab-pane>
+      <el-tab-pane label="热门评论" name="second">
+        <div class="img-pic">
+          <el-avatar src="https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png"></el-avatar>
+        </div>
+        <div class="img-content">
+          <div class="min-bd">
+            搞笑
+          </div>
+          <div class="features">
+            <i class="el-icon-goblet-square-full" style="padding-left: 0;">443</i>
+            <i class="el-icon-chat-round">24</i>
+          </div>
+        </div>
+      </el-tab-pane>
       <el-tab-pane label="随机文章" name="third">随机文章</el-tab-pane>
       <el-tab-pane label="github动态" name="fourth">github动态</el-tab-pane>
     </el-tabs>
@@ -28,12 +56,17 @@
 </template>
 
 <script>
+  import topComments from '@/utils/fakeData/topComments.json'
 
   export default {
     name: 'HomeAsideRight',
+    components: {
+      topComments
+    },
     data () {
       return {
-        activeName: 'first'
+        activeName: 'first',
+        HomeAsideRight: topComments.article
       }
     },
     methods: {
