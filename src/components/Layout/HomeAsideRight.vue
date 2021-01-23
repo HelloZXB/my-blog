@@ -18,6 +18,12 @@
           终其一生, 我们都在寻找自己
       </span>
     </div>
+    <el-tabs v-model="activeName" @tab-click="handleClick">
+      <el-tab-pane label="热门文章" name="first">用户管理</el-tab-pane>
+      <el-tab-pane label="热门评论" name="second">热门评论</el-tab-pane>
+      <el-tab-pane label="随机文章" name="third">随机文章</el-tab-pane>
+      <el-tab-pane label="github动态" name="fourth">github动态</el-tab-pane>
+    </el-tabs>
   </div>
 </template>
 
@@ -25,6 +31,16 @@
 
   export default {
     name: 'HomeAsideRight',
+    data () {
+      return {
+        activeName: 'first'
+      }
+    },
+    methods: {
+      handleClick (tab, event) {
+        console.log(tab, event)
+      }
+    }
   }
 </script>
 
