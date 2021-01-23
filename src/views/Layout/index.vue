@@ -1,6 +1,6 @@
 <template>
   <!-- 主页 -->
-  <div class="layout" @contextmenu.prevent>
+  <div class="layout" @contextmenu.prevent @keyup="renderKeyDown($event)" tabindex="0">
     <a href="https://github.com/HelloZXB" class="github" target="_blank">
       <img src="../../assets/01.png" alt="">
     </a>
@@ -52,6 +52,16 @@
       show (event) {
         // 此处可以使用判断条件控制是否需要阻止右键
         event.preventDefault()
+      },
+      renderKeyDown (e) {
+        if (e.keyCode === 123) {
+          this.$message({
+            message: '打开控制台成功, 采用本站CSS和JS请注明来源, 禁止商业使用',
+            type: 'warning'
+          })
+          console.log('打开控制台成功, 采用本站CSS和JS请注明来源, 禁止商业使用')
+        }
+        // console.log('e.keyCode' + e.keyCode)
       }
     }
   }
