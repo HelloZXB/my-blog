@@ -44,6 +44,9 @@
     },
     data () {
       return {}
+    },
+    created () {
+      console.log('"今天的不开心就至于此吧, 明天依旧光芒万丈, 宝贝!"')
     }
   }
 </script>
