@@ -5,7 +5,7 @@
       <el-col :span="12">
         <el-menu :default-active="$route.path" class="el-menu-vertical-demo" @open="handleOpen"
                  @close="handleClose" router>
-          <el-menu-item disabled>
+          <el-menu-item disabled index="2">
             <span>导航</span>
           </el-menu-item>
           <el-menu-item index="/">
@@ -35,7 +35,7 @@
 
           <!-- --------------------------------------------- -->
 
-          <el-menu-item disabled>
+          <el-menu-item disabled index="a">
             <span>组成</span>
           </el-menu-item>
           <el-submenu index="7">
@@ -69,8 +69,7 @@
               </el-menu-item>
             </el-menu-item-group>
           </el-submenu>
-
-          <el-submenu>
+          <el-submenu index="8">
             <template slot="title">
               <i class="el-icon-document-remove"></i>
               <span>页面</span>
@@ -84,7 +83,6 @@
               <el-menu-item index="/link-library">链接库</el-menu-item>
             </el-menu-item-group>
           </el-submenu>
-
           <el-submenu index="9">
             <template slot="title">
               <i class="el-icon-location"></i>
