@@ -1,5 +1,16 @@
 .right-aside {
   overflow: hidden;
+  position: relative;
+}
+.right-aside .go-top {
+  position: fixed;
+  right: 100px;
+  top: 0;
+  overflow: hidden;
+  z-index: 999;
+}
+.right-aside .go-top img {
+  height: 700px;
 }
 .right-aside .user {
   width: 100%;

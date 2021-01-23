@@ -20,5 +20,6 @@ body {
   background: url("https://cdn.jsdelivr.net/gh/nixgnauhcuy/cdn/image/background_image.jpg") center center;
   background-size: cover;
   background-attachment: fixed;
+  overflow-x: hidden;
 }
 /*# sourceMappingURL=base.css.map */

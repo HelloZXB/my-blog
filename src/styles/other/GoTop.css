@@ -1,0 +1,11 @@
+.go-top {
+  position: fixed;
+  right: 10%;
+  top: 0;
+  overflow: hidden;
+  z-index: 999;
+}
+.go-top img {
+  height: 700px;
+}
+/*# sourceMappingURL=GoTop.css.map */
