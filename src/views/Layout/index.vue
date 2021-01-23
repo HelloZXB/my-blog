@@ -1,6 +1,6 @@
 <template>
   <!-- 主页 -->
-  <div class="layout">
+  <div class="layout" @contextmenu.prevent>
     <a href="https://github.com/HelloZXB" class="github" target="_blank">
       <img src="../../assets/01.png" alt="">
     </a>
@@ -47,6 +47,12 @@
     },
     created () {
       console.log('"今天的不开心就至于此吧, 明天依旧光芒万丈, 宝贝!"')
+    },
+    methods: {
+      show (event) {
+        // 此处可以使用判断条件控制是否需要阻止右键
+        event.preventDefault()
+      }
     }
   }
 </script>
