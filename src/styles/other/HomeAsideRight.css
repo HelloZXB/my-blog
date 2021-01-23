@@ -7,6 +7,9 @@
   border-bottom: 1px solid #ccc;
   text-align: center;
 }
+.right-aside .user .el-dropdown {
+  cursor: pointer;
+}
 .right-aside .user .el-dropdown span {
   display: block;
 }
