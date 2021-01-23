@@ -52,6 +52,39 @@
       <el-tab-pane label="随机文章" name="third">随机文章</el-tab-pane>
       <el-tab-pane label="github动态" name="fourth">github动态</el-tab-pane>
     </el-tabs>
+    <div class="blog-msg">
+      <h3>博客信息</h3>
+      <ul>
+        <li>
+          <div>
+            <i class="el-icon-files"></i>
+            文章总数
+          </div>
+          <span>343</span>
+        </li>
+        <li>
+          <div>
+            <i class="el-icon-chat-round"></i>
+            评论总数
+          </div>
+          <span>34332</span>
+        </li>
+        <li>
+          <div>
+            <i class="el-icon-date"></i>
+            运行天数
+          </div>
+          <span>4天3小时</span>
+        </li>
+        <li>
+          <div>
+            <i class="el-icon-mouse"></i>
+            github天数
+          </div>
+          <span>325天</span>
+        </li>
+      </ul>
+    </div>
     <div class="go-top">
       <img v-show="goTopShow" @click="goTop" src="https://www.xcnte.com/usr/plugins/GoTop/images/scroll.png" alt="">
     </div>
