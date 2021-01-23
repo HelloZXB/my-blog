@@ -28,6 +28,7 @@
   border-radius: 6px;
   border: 1px solid #ccc;
   box-shadow: 1px 1px 5px 5px rgb(169 169 4.82857143%);
+  transition: 0.3s;
 }
 .home .body-art .art-img {
   width: 35%;
@@ -47,7 +48,7 @@
 }
 .home .body-art:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 10px rgb(102 204 7.28571429%);
+  box-shadow: 0 8px 10px rgb(76 160 6.85714286%);
   transition: all 0.3s;
 }
 /*# sourceMappingURL=Home.css.map */
