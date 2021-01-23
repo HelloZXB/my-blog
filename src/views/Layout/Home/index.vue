@@ -20,28 +20,16 @@
 </template>
 
 <script>
+  import carousel from '@/utils/fakeData/carousel.json'
+
   export default {
     name: 'Home',
+    components: {
+      carousel
+    },
     data () {
       return {
-        carousel: [
-          {
-            id: 1,
-            src: 'https://jerrita.cn/usr/uploads/time/5e77474967cc9.jpg'
-          },
-          {
-            id: 2,
-            src: 'https://jerrita.cn/usr/themes/handsome/assets/img/sj/4.jpg'
-          },
-          {
-            id: 3,
-            src: 'https://jerrita.cn/usr/uploads/time/5e8ae7bd37196.jpg'
-          },
-          {
-            id: 4,
-            src: 'https://jerrita.cn/usr/themes/handsome/assets/img/sj/1.jpg'
-          },
-        ]
+        carousel: carousel.carousel
       }
     }
   }
