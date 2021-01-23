@@ -8,12 +8,31 @@
         </h3>
       </el-carousel-item>
     </el-carousel>
-    <div class="body-art">
+    <div class="body-art" v-for="(item, index) in bodyArt" :key="index">
       <div class="art-img">
-        <img src="https://jerrita.cn/usr/themes/handsome/assets/img/sj/2.jpg" alt="">
+        <img :src="item.pic" alt="">
       </div>
       <div class="art-txt">
-        <div class="txt">狮吼功</div>
+        <div class="txt">
+          <h3>{{ item.title }}</h3>
+          <p>
+            {{ item.mainContent }}
+          </p>
+        </div>
+        <div class="home-features">
+          <span>
+            <i class="el-icon-user">dawnIceZhu</i>
+          </span>
+          <span>
+            <i class="el-icon-time">2020.01.23</i>
+          </span>
+          <span>
+            <i class="el-icon-goblet-square-full">{{ item.cheers }}</i>
+          </span>
+          <span>
+            <i class="el-icon-chat-round">{{ item.comment }}</i>
+          </span>
+        </div>
       </div>
     </div>
   </div>
@@ -21,15 +40,18 @@
 
 <script>
   import carousel from '@/utils/fakeData/carousel.json'
+  import bodyArt from '@/utils/fakeData/bodyArt.json'
 
   export default {
     name: 'Home',
     components: {
-      carousel
+      carousel,
+      bodyArt
     },
     data () {
       return {
-        carousel: carousel.carousel
+        carousel: carousel.carousel,
+        bodyArt: bodyArt.content
       }
     }
   }
