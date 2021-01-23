@@ -81,10 +81,12 @@
   border-top: 1px solid #ccc;
   overflow: hidden;
   padding: 0 5px;
-  font-size: 15px;
+  font-size: 12px;
   color: #888;
+  line-height: 20px;
 }
 .right-aside .el-tabs .el-tab-pane .img-content .features i {
   padding: 0 10px;
+  cursor: pointer;
 }
 /*# sourceMappingURL=HomeAsideRight.css.map */
