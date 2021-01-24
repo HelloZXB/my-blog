@@ -95,4 +95,7 @@
   box-shadow: 0 8px 10px rgb(76 160 6.85714286%);
   transition: all 0.3s;
 }
+.home .block {
+  padding: 20px 0 0;
+}
 /*# sourceMappingURL=Home.css.map */

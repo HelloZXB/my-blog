@@ -65,7 +65,6 @@
 
         let keyCode = e.keyCode || e.which || e.charCode
         let ctrlKey = e.ctrlKey || e.metaKey
-        console.log(e.ctrlKey)
         if (ctrlKey && keyCode == 67) {
           this.$message({
             message: '复制成功, 若要转载请务必保留原文链接',

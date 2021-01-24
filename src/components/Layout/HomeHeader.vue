@@ -16,7 +16,7 @@
             <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal"
                      @select="handleSelect">
               <el-menu-item index="1">登陆</el-menu-item>
-              <el-menu-item index="2">注册</el-menu-item>
+              <el-menu-item index="2" @click="handleClick">注册</el-menu-item>
               <el-menu-item index="3">管理</el-menu-item>
               <el-menu-item index="4">GITHUB</el-menu-item>
               <el-submenu index="5">
@@ -56,6 +56,11 @@
     methods: {
       handleSelect (key, keyPath) {
         console.log(key, keyPath)
+      },
+      handleClick () {
+        this.$message({
+          message: '注册功能暂不开放',
+        })
       }
     }
   }
